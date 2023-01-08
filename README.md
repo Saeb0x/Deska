@@ -17,10 +17,10 @@ To visit the App:
 ## Installation and Setup Instructions
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-###### Regarding Firebase
+## Regarding Firebase
 You can insert you own Firebase Project Key in the .env file for furthur development!
 
-###### Installation:
+## Installation:
 
 `npm install`  
 
