@@ -39,6 +39,7 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link to = "reviews" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Reviews</Link>
             </li>
+            <!-- Writing Reviews, and Profiles are only for registered users -->
             {localStorage.getItem("isAuth") && <li className='nav-item'>
               <Link to = "writeReview" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Create Review</Link>
             </li>}
