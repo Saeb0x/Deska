@@ -20,7 +20,7 @@ const Login = ( { setIsAuth }) => {
             localStorage.setItem("profilePic", profilePic)
             localStorage.setItem("isAuth", true);
             setIsAuth(true);
-            navigate("/book");
+            navigate("/book"); // Navigate to the books' advanced search system
         })
         .catch((error) => {
             console.log(error);
