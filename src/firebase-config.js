@@ -4,7 +4,7 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 // Deska's Firebase configuration
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_KEY,
+    apiKey: process.env.REACT_APP_FIREBASE_KEY, // The Firebase API KEY
     authDomain: "deska-prod.firebaseapp.com",
     projectId: "deska-prod",
     storageBucket: "deska-prod.appspot.com",
