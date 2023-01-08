@@ -1,0 +1,71 @@
+.createReviewPage 
+{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+}
+
+.crContainer 
+{
+    width: 500px;
+    height: auto;
+    font-weight: bold;
+    padding: 20px;
+    background-color: var(--purple-color);
+    border-radius: 12px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.crContainer h1 
+{
+    text-align: center;
+}
+  
+.crContainer label 
+{
+    font-size: 25px;
+}
+
+.crContainer .inputGp 
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGp input,.inputGp textarea {
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.inputGp input 
+{
+  height: 40px;
+}
+.inputGp textarea 
+{
+  height: 150px;
+}
+
+.crContainer button 
+{
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color:white;
+  background-color: black;
+}
+
+input, textarea 
+{
+  margin-top: 5px;
+}

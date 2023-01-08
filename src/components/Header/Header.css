@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+.header-content{
+    min-height: 75vh;
+    background: url("../../images/library-img.jpg") center/cover no-repeat;
+    flex-direction: column;
+}
+.header-title{
+    font-family: 'Fugaz One', cursive;
+    font-size: 5.2rem;
+    color: black;
+}
+.header-text{
+    font-family: 'Fugaz One', cursive;
+    margin-top: -3.8rem;
+    margin-bottom: 7.8rem;
+    opacity: 1;
+    max-width: 770px;
+    font-size: 3.1rem;
+    color: black;
+}
