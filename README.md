@@ -15,9 +15,12 @@ To visit the App:
 ![deska3](https://user-images.githubusercontent.com/56490771/211190119-6442811b-7cbd-428d-8451-02f69db61492.PNG)
 
 ## Installation and Setup Instructions
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-Installation:
+###### Regarding Firebase
+You can insert you own Firebase Project Key in the .env file for furthur development!
+
+###### Installation:
 
 `npm install`  
 
@@ -29,5 +32,3 @@ To Start Server:
 
 `npm start`  
 
-## Regarding Firebase
-You can insert you own Firebase Project Key in the .env file for furthur development!
