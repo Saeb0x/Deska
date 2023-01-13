@@ -5,7 +5,7 @@ A Full Stack Book Searching and Reviewing Web App. A project for uni.
 This project is currently in development. Users can register an account in deska, use it's books' advanced search engine, and write reviews on their favorite books. More advanced features and functionality is in progress.
 
 To visit the App:
-`TBU`  
+`deska-final.firebaseapp.com`  
 
 ### Project Screen Shot(s)
 ![deska1](https://user-images.githubusercontent.com/56490771/211189947-8c2ad5ea-daa1-42cf-b820-f40327bc9e47.PNG)
